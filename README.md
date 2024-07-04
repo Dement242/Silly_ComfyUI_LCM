@@ -32,7 +32,9 @@ In SillyTavern, Under Extensions / Image Generation
 
   3. You will need to edit the file "nodes.py" in "...\ComfyUI\custom_nodes\comfyui_lora_tag_loader\"
 
-  4. Line 12 should be changed to: self.tag_pattern = "\![0-9a-zA-Z\:\_\-\.\s\/\(\)\\\\]+\!"
+  4. Line 12 should be changed to:'''
+       self.tag_pattern = "\![0-9a-zA-Z\:\_\-\.\s\/\(\)\\\\]+\!"
+     '''
      
        the '<' and '>' have been changed to '!'
      
