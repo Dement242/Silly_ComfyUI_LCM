@@ -1,6 +1,7 @@
 # Silly_ComfyUI_LCM
 
 Requierments:
+
   lcm-lora-sdv1-5.safetensor:
   1. From https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/tree/main
   2. Download "pytorch_lora_weights.safetensors" and rename to LCM-LORA-SDV1-5.safetensors
