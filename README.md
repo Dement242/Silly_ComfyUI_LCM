@@ -24,7 +24,7 @@ In SillyTavern, Under Extensions / Image Generation
 
   7. "Sampling method" is also set in the json. (no point in changing unless you want corrupted images)
 
-# If you want to also be able to include Loras in the prompt you send from SillyTavern, follow these steps:
+# If you want to also be able to include Loras in the prompt:
 
   1. In ComfyUI / Manager / Custom Nodes Manager
 
