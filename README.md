@@ -1,5 +1,7 @@
 # Silly_ComfyUI_LCM
 
+# How to use LCM with ComfyUI from SillyTavern + Loras
+
 Requierments:
 
   lcm-lora-sdv1-5.safetensor:
