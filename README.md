@@ -5,7 +5,7 @@ Requierments:
   lcm-lora-sdv1-5.safetensor:
   1. From https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/tree/main
   2. Download "pytorch_lora_weights.safetensors" and rename to LCM-LORA-SDV1-5.safetensors
-  3. move LCM-LORA-SDV1-5.safetensors to the lora-directory in "...\Comfyui\models\loras\"
+  3. move LCM-LORA-SDV1-5.safetensors to the lora-directory in "...\ComfyUI\models\loras\"
 
 
 In SillyTavern, Under Extensions / Image Generation
