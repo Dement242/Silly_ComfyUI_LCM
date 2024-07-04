@@ -22,7 +22,7 @@ In SillyTavern, Under Extensions / Image Generation
 
   6. "CFG Scale" is set to 1.1 in the json-Workflow. (Line 6 if you want to edit:' "cfg": 1.1, )
 
-  7. "Sampling method" is also set in the json. (no point in changing unless you want corrupted images)
+  7. "Sampling method" (lcm) is also set in the json. (no point in changing unless you want corrupted images)
 
 
 # To be able to include Loras in the prompt:
