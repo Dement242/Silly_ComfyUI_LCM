@@ -32,13 +32,13 @@ In SillyTavern, Under Extensions / Image Generation
 
   3. You will need to edit the file "nodes.py" in "...\ComfyUI\custom_nodes\comfyui_lora_tag_loader\"
 
-  4. Line 12 should be changed to:
+  4. the '<' and '>' have been changed to '!', this is because SillyTavern strip <tags> from your prompt and it will not get sent to ComfyUI
+  
+  Line 12 should be changed to:
   ```
        self.tag_pattern = "\![0-9a-zA-Z\:\_\-\.\s\/\(\)\\\\]+\!"
   ```
-  '''
-    the '<' and '>' have been changed to '!'
-    
-    this is because SillyTavern strip <tags> from your prompt and it will not get sent to ComfyUI
+  
+   
 
   7. Follow the above instructions to add a new workflow, but copy and paste "SillyLCMVae_LoraTagLoader.json" instead.
