@@ -1,12 +1,23 @@
 # Silly_ComfyUI_LCM
 
+Requierments:
+  lcm-lora-sdv1-5.safetensor:
+  1. From https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/tree/main
+  2. Download "pytorch_lora_weights.safetensors" and rename to LCM-LORA-SDV1-5.safetensors
+  3. move LCM-LORA-SDV1-5.safetensors to the lora-directory in "...\Comfyui\models\loras\"
 
 Under Extensions / Image Generation
 
-  add a new workflow (+)
+  1. add a new workflow (+)
   
-  name it LCM_Vae (or whatever you want to call it)
+  2. name it LCM_Vae (or whatever you want to call it)
   
-  open workflow editor
+  3. open workflow editor
   
-  copy and paste content from from Silly_LCM_VAE.json to the SillyTavern workflow editor
+  4. copy and paste content from from Silly_LCM_VAE.json to the SillyTavern workflow editor and save.
+
+  5. Set steps to 6-8
+
+  6. CFG Scale is set to 1.1 in the json-Workflow. (Line 6 if you want to edit:' "cfg": 1.1, )
+
+  7. Sampling method is also set in the json
