@@ -36,9 +36,9 @@ In SillyTavern, Under Extensions / Image Generation
   ```
        self.tag_pattern = "\![0-9a-zA-Z\:\_\-\.\s\/\(\)\\\\]+\!"
   ```
-     
-       the '<' and '>' have been changed to '!'
-     
-       this is because SillyTavern strip <tags> from your prompt and it will not get sent to ComfyUI
+  '''
+    the '<' and '>' have been changed to '!'
+    
+    this is because SillyTavern strip <tags> from your prompt and it will not get sent to ComfyUI
 
   7. Follow the above instructions to add a new workflow, but copy and paste "SillyLCMVae_LoraTagLoader.json" instead.
