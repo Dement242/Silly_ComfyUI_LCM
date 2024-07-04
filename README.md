@@ -7,7 +7,8 @@ Requierments:
   2. Download "pytorch_lora_weights.safetensors" and rename to LCM-LORA-SDV1-5.safetensors
   3. move LCM-LORA-SDV1-5.safetensors to the lora-directory in "...\Comfyui\models\loras\"
 
-Under Extensions / Image Generation
+
+In SillyTavern, Under Extensions / Image Generation
 
   1. add a new workflow (+)
   
