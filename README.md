@@ -32,7 +32,7 @@ In SillyTavern, Under Extensions / Image Generation
 
   3. You will need to edit the file "nodes.py" in "...\ComfyUI\custom_nodes\comfyui_lora_tag_loader\"
 
-  4. The '<' and '>' have been changed to '!', this is because SillyTavern strip <tags> from your prompt and it will not get sent to ComfyUI
+  4. The '<' and '>' have been changed to '!', this is because SillyTavern strip '<'tags'>' from your prompt and it will not get sent to ComfyUI
   
   Line 12 should be changed to:
   ```
