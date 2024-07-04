@@ -23,3 +23,17 @@ In SillyTavern, Under Extensions / Image Generation
   6. "CFG Scale" is set to 1.1 in the json-Workflow. (Line 6 if you want to edit:' "cfg": 1.1, )
 
   7. "Sampling method" is also set in the json. (no point in changing unless you want corrupted images)
+
+# If you want to also be able to include Loras in the prompt you send from SillyTavern, follow these steps:
+
+  1. In ComfyUI / Manager / Custom Nodes Manager
+
+  2. Search and Install "lora tag loader for comfyui" from author: badjeff
+
+  3. You will need to edit the file "nodes.py" in "...\ComfyUI\custom_nodes\comfyui_lora_tag_loader\"
+
+  4. Line 12 should be changed to: self.tag_pattern = "\![0-9a-zA-Z\:\_\-\.\s\/\(\)\\\\]+\!"
+       the '<' and '>' have been changed to '!'
+       this is because SillyTavern strip <tags> from your prompt and it will not get sent to ComfyUI
+
+  5. Follow the above instructions to add a new workflow, but copy and paste "SillyLCMVae_LoraTagLoader.json" instead.
