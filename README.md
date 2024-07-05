@@ -2,6 +2,15 @@
 
 # How to use LCM with ComfyUI from SillyTavern + Loras
 
+Workflows:
+
+Silly_LCM_VAE.json  -  "LCM and working VAE"
+
+SillyLCMVae_LoraTagLoader.json  -  "LCM, VAE and with suppert for 'Lora Tag Loader'-node"
+
+SillyLCM_Vae_Lora_ClipSkip.json  -  "LCM, VAE, LoraTagLoader, and working ClipSkip"
+
+
 Requierments:
 
   lcm-lora-sdv1-5.safetensor:
