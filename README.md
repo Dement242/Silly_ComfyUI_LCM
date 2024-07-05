@@ -45,3 +45,7 @@ In SillyTavern, Under Extensions / Image Generation
   5. Follow the above instructions to add a new workflow, but copy and paste "SillyLCMVae_LoraTagLoader.json" instead.
 
   6. You can now use, for example: " !lora:add_detail:0.5! " in your prompt to load add_detail-lora at a strength of 0.5.
+
+# The Painter - a SillyTavern prompt generating character:
+
+https://chub.ai/characters/possible_prompt_2525/the-painter-5a9e9be71d3b
