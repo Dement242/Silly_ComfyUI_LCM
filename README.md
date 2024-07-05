@@ -6,7 +6,7 @@ Workflows:
 
 Silly_LCM_VAE.json  -  "LCM and working VAE"
 
-SillyLCMVae_LoraTagLoader.json  -  "LCM, VAE and with suppert for 'Lora Tag Loader'-node"
+SillyLCMVae_LoraTagLoader.json  -  "LCM, VAE and with support for 'Lora Tag Loader'-node"
 
 SillyLCM_Vae_Lora_ClipSkip.json  -  "LCM, VAE, LoraTagLoader, and working ClipSkip"
 
